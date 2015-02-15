@@ -83,6 +83,7 @@
 		3D81CCA21A91469D0073E611 /* Salad Bowl */ = {
 			isa = PBXGroup;
 			children = (
+				3D81CCCC1A914B7D0073E611 /* Models */,
 				3D81CCA71A91469D0073E611 /* AppDelegate.h */,
 				3D81CCA81A91469D0073E611 /* AppDelegate.m */,
 				3D81CCAD1A91469D0073E611 /* ViewController.h */,
@@ -120,6 +121,13 @@
 				3D81CCC11A91469D0073E611 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3D81CCCC1A914B7D0073E611 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
