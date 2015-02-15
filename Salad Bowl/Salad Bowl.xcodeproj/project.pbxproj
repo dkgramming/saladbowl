@@ -15,6 +15,8 @@
 		3D81CCB41A91469D0073E611 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D81CCB31A91469D0073E611 /* Images.xcassets */; };
 		3D81CCB71A91469D0073E611 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D81CCB51A91469D0073E611 /* LaunchScreen.xib */; };
 		3D81CCC31A91469D0073E611 /* Salad_BowlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D81CCC21A91469D0073E611 /* Salad_BowlTests.m */; };
+		3D81CCCF1A914D1C0073E611 /* SBPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D81CCCE1A914D1C0073E611 /* SBPlayer.m */; };
+		3D81CCD01A914D1C0073E611 /* SBPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D81CCCE1A914D1C0073E611 /* SBPlayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,8 @@
 		3D81CCBC1A91469D0073E611 /* Salad BowlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Salad BowlTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D81CCC11A91469D0073E611 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D81CCC21A91469D0073E611 /* Salad_BowlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Salad_BowlTests.m; sourceTree = "<group>"; };
+		3D81CCCD1A914D1C0073E611 /* SBPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBPlayer.h; sourceTree = "<group>"; };
+		3D81CCCE1A914D1C0073E611 /* SBPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBPlayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +130,8 @@
 		3D81CCCC1A914B7D0073E611 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				3D81CCCD1A914D1C0073E611 /* SBPlayer.h */,
+				3D81CCCE1A914D1C0073E611 /* SBPlayer.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -232,6 +238,7 @@
 			files = (
 				3D81CCA91A91469D0073E611 /* AppDelegate.m in Sources */,
 				3D81CCAC1A91469D0073E611 /* Salad_Bowl.xcdatamodeld in Sources */,
+				3D81CCCF1A914D1C0073E611 /* SBPlayer.m in Sources */,
 				3D81CCAF1A91469D0073E611 /* ViewController.m in Sources */,
 				3D81CCA61A91469D0073E611 /* main.m in Sources */,
 			);
@@ -242,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D81CCC31A91469D0073E611 /* Salad_BowlTests.m in Sources */,
+				3D81CCD01A914D1C0073E611 /* SBPlayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
