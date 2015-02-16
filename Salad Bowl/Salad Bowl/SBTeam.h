@@ -10,4 +10,8 @@
 
 @interface SBTeam : NSObject
 
+@property (nonatomic, copy) NSString *name;
+@property (nonatomic) NSMutableArray *players;
+@property (nonatomic) NSInteger      score;
+
 @end
