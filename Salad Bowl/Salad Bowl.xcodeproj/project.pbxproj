@@ -19,7 +19,6 @@
 		3D81CCD31A91945E0073E611 /* SBTeam.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D81CCD21A91945E0073E611 /* SBTeam.m */; };
 		3D81CCD41A91945E0073E611 /* SBTeam.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D81CCD21A91945E0073E611 /* SBTeam.m */; };
 		3D81CCD81A9196800073E611 /* SBMainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D81CCD71A9196800073E611 /* SBMainMenuViewController.m */; };
-		3D81CCD91A9196800073E611 /* SBMainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D81CCD71A9196800073E611 /* SBMainMenuViewController.m */; };
 		3D81CCE01A91A1270073E611 /* UIColor+SB.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D81CCDF1A91A1270073E611 /* UIColor+SB.m */; };
 		9D3C130A078D33D916855F4F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 06AE5ECB28FA35E7B86F97DC /* libPods.a */; };
 /* End PBXBuildFile section */
@@ -340,7 +339,6 @@
 				3D81CCC31A91469D0073E611 /* Salad_BowlTests.m in Sources */,
 				3D81CCD01A914D1C0073E611 /* SBPlayer.m in Sources */,
 				3D81CCD41A91945E0073E611 /* SBTeam.m in Sources */,
-				3D81CCD91A9196800073E611 /* SBMainMenuViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
