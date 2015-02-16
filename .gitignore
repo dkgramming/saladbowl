@@ -47,3 +47,7 @@ DerivedData
 
 ### OSX ###
 .DS_STORE
+
+### Misc ###
+configcailin.sh
+configdave.sh
