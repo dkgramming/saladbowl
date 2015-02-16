@@ -10,4 +10,7 @@
 
 @interface SBPlayer : NSObject
 
+@property (nonatomic, copy) NSString *name;
+@property (nonatomic, assign) NSInteger points;
+
 @end
