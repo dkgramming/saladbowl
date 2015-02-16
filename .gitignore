@@ -45,3 +45,5 @@ DerivedData
 #
 # Pods/
 
+### OSX ###
+.DS_STORE

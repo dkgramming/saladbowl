@@ -1,0 +1,5 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+xcodeproj 'Salad Bowl'
+
+pod 'Masonry', '~> 0.5.3'
