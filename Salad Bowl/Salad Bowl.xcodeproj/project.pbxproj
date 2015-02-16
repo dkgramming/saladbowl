@@ -10,7 +10,6 @@
 		3D81CCA61A91469D0073E611 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D81CCA51A91469D0073E611 /* main.m */; };
 		3D81CCA91A91469D0073E611 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D81CCA81A91469D0073E611 /* AppDelegate.m */; };
 		3D81CCAC1A91469D0073E611 /* Salad_Bowl.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3D81CCAA1A91469D0073E611 /* Salad_Bowl.xcdatamodeld */; };
-		3D81CCAF1A91469D0073E611 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D81CCAE1A91469D0073E611 /* ViewController.m */; };
 		3D81CCB21A91469D0073E611 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D81CCB01A91469D0073E611 /* Main.storyboard */; };
 		3D81CCB41A91469D0073E611 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D81CCB31A91469D0073E611 /* Images.xcassets */; };
 		3D81CCB71A91469D0073E611 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D81CCB51A91469D0073E611 /* LaunchScreen.xib */; };
@@ -42,8 +41,6 @@
 		3D81CCA71A91469D0073E611 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3D81CCA81A91469D0073E611 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3D81CCAB1A91469D0073E611 /* Salad_Bowl.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Salad_Bowl.xcdatamodel; sourceTree = "<group>"; };
-		3D81CCAD1A91469D0073E611 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3D81CCAE1A91469D0073E611 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3D81CCB11A91469D0073E611 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3D81CCB31A91469D0073E611 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3D81CCB61A91469D0073E611 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -106,8 +103,6 @@
 				3D81CCCC1A914B7D0073E611 /* Models */,
 				3D81CCA71A91469D0073E611 /* AppDelegate.h */,
 				3D81CCA81A91469D0073E611 /* AppDelegate.m */,
-				3D81CCAD1A91469D0073E611 /* ViewController.h */,
-				3D81CCAE1A91469D0073E611 /* ViewController.m */,
 				3D81CCB01A91469D0073E611 /* Main.storyboard */,
 				3D81CCB31A91469D0073E611 /* Images.xcassets */,
 				3D81CCB51A91469D0073E611 /* LaunchScreen.xib */,
@@ -319,7 +314,6 @@
 				3D81CCD81A9196800073E611 /* SBMainMenuViewController.m in Sources */,
 				3D81CCAC1A91469D0073E611 /* Salad_Bowl.xcdatamodeld in Sources */,
 				3D81CCCF1A914D1C0073E611 /* SBPlayer.m in Sources */,
-				3D81CCAF1A91469D0073E611 /* ViewController.m in Sources */,
 				3D81CCA61A91469D0073E611 /* main.m in Sources */,
 				3D81CCD31A91945E0073E611 /* SBTeam.m in Sources */,
 			);
