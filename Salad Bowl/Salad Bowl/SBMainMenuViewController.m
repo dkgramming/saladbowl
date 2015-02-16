@@ -2,11 +2,12 @@
 //  SBMainMenuViewController.m
 //  Salad Bowl
 //
-//  Created by Cailin Li on 2/15/15.
+//  Created by David Kisluk on 2/15/15.
 //  Copyright (c) 2015 Davelin. All rights reserved.
 //
 
 #import "SBMainMenuViewController.h"
+#import "UIColor+SB.h"
 
 @interface SBMainMenuViewController ()
 
@@ -16,9 +17,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
 
-    self.view.backgroundColor = [UIColor orangeColor];
+    [self.navigationController setNavigationBarHidden:YES];
+
+    self.view.backgroundColor = [UIColor saladColor];
+
+    
 }
 
 - (void)didReceiveMemoryWarning {

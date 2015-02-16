@@ -2,7 +2,7 @@
 //  SBMainMenuViewController.h
 //  Salad Bowl
 //
-//  Created by Cailin Li on 2/15/15.
+//  Created by David Kisluk on 2/15/15.
 //  Copyright (c) 2015 Davelin. All rights reserved.
 //
 
