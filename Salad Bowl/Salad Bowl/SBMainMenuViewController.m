@@ -7,6 +7,7 @@
 //
 
 #import "SBMainMenuViewController.h"
+#import "Masonry.h"
 #import "UIColor+SB.h"
 
 @interface SBMainMenuViewController ()
@@ -22,7 +23,14 @@
 
     self.view.backgroundColor = [UIColor saladColor];
 
-    
+    UIImage *saladBowlImage = [UIImage imageNamed:@"SaladBowlMain"];
+    UIImageView *saladBowlView = [[UIImageView alloc] initWithImage:saladBowlImage];
+
+    [self.view addSubview:saladBowlView];
+
+    [saladBowlView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.bottom.equalTo(self.view);
+    }];
 }
 
 - (void)didReceiveMemoryWarning {
