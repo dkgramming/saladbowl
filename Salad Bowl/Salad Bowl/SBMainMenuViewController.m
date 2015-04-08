@@ -24,6 +24,7 @@
     self.view.backgroundColor = [UIColor saladColor];
 
     UIImage *saladBowlImage = [UIImage imageNamed:@"SaladBowlMain"];
+    
     UIImageView *saladBowlView = [[UIImageView alloc] initWithImage:saladBowlImage];
 
     [self.view addSubview:saladBowlView];
